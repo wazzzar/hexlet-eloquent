@@ -4,7 +4,7 @@ test:
 setup: reset install db-prepare
 
 console:
-	./vendor/bin/psysh
+	php ./vendor/bin/psysh
 
 install:
 	composer install
